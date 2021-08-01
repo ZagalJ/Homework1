@@ -1,0 +1,131 @@
+* { /* Start CSS*/
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+/* Organize CSS by estructure */
+a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+p {
+    font-size: 16px;
+}
+
+body { /*Add Background color to the body of the page*/
+    background-color: #d9dcd6;
+}
+
+.header { /* Formating the header, including specific font and background color*/
+    padding: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: #2a607c;
+    color: #ffffff;
+}
+
+.header h1 { /*changed display type and font size*/
+    display: inline-block;
+    font-size: 48px;
+}
+
+.header h1 .seo { /* changed font color for "seo"  */
+    color: #d9dcd6;
+}
+
+.container { /* gave format to the header container */
+    padding-top: 15px;
+    margin-right: 20px;
+    float: right;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+}
+
+.header div ul { /*format for the list type  */
+    list-style-type: none;
+}
+
+.header div ul li { /*format for the list elements  */
+    display: inline-block;
+    margin-left: 25px;
+}
+
+.hero {  /*set format for hero image  */
+    height: 800px;
+    width: 100%;
+    margin-bottom: 25px;
+    background-image: url("../images/digital-marketing-meeting.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+.float-left { /*added margin and floating position*/
+    float: left;
+    margin-right: 25px;
+}
+
+.float-right {  /*added margin and floating position*/
+    float: right;
+    margin-left: 25px;
+}
+
+.content {  /*added inline content and margin*/
+    width: 75%;
+    display: inline-block;
+    margin-left: 20px;
+}
+
+.benefits { /*added format for new box*/
+    margin-right: 20px;
+    padding: 20px;
+    clear: both;
+    float: right;
+    width: 20%;
+    height: 100%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #2589bd;
+}
+
+.benefits h3 {
+color: #ffffff;
+}
+
+.image img {  /*added margin to image*/
+    display: block;
+    margin: 10px auto;
+    max-width: 150px;
+}
+
+.image {   /*set max height for images*/
+    max-height: 200px;
+}
+
+.boxes {       /*style to box*/
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+    color: #ffffff;
+}
+
+.boxes h3 {  /*added margin and text alignment*/
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.boxes h2 {   /*set margin and font size for tex*/
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+
+.footer {   /*set style for footer*/
+    padding: 30px;
+    clear: both;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+}
+
+.footer h2 {        /*set font size for tex*/
+    font-size: 20px;
+}
